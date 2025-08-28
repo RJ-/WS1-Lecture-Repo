@@ -1,0 +1,12 @@
+.highlight {
+    background-color: yellow;
+    padding: 10px;
+    border: 1px solid rgb(250, 207, 127);
+}
+
+#note {
+    background-color: rgb(250, 207, 127);
+    padding: 10px;
+    border: 1px solid rgb(250, 207, 127);
+}
+    
