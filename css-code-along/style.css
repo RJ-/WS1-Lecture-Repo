@@ -1,37 +1,38 @@
-/* style.css (Starter)
-   TODOs for Module 7–8 Code-Along */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
 body {
-  /* font-family: Arial, sans-serif; */
-  /* color: #333; */
-  /* margin: 0; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-  /* color: #0066cc; */
+h1,
+h2,
+h3 {
+  color: #0066cc;
 }
 
 a {
-  /* color: #cc0000; */
-  /* text-decoration: none; */
-}
-a:hover {
-  /* text-decoration: underline; */
+  color: #cc0000;
+  text-decoration: none;
 }
 
-.site-header, .site-footer {
-  /* padding: 16px; */
-  /* background: #f2f2f2; */
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header,
+.site-footer {
+  padding: 16px;
+  background-color: #f2f2f2;
+  /* border: 2px solid #0066cc;
+  margin: 30px; */
 }
 
 .main-nav ul {
-  /* display: flex; */
-  /* gap: 16px; */
-  /* list-style: none; */
-}
-
-.project {
-  /* border: 1px solid #ccc; */
-  /* padding: 10px; */
-  /* margin: 10px; */
+  list-style: none;
+  display: flex;
+  gap: 36px;
 }
