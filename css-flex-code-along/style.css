@@ -1,8 +1,62 @@
 :root {
   --border: #e0e0e0;
-  --bg: #f9fafb;
+  --bg: #d9dadb;
+  --text: #333;
+  --brand: #06abe2;
 }
 /* TODO: Add global resets and base styles */
 /* TODO: Style .card with padding/margin/border */
 /* TODO: Make .nav horizontal (display:flex) */
 /* TODO: Make .grid a flex container with gaps */
+
+body {
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text);
+  background: #fff;
+}
+
+.site-header,
+.site-footer {
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.site-footer {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 50px 30px 50px 10px;
+  margin: 10px 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--brand);
+}
+
+.container {
+  padding: 1rem;
+}
+
+.card {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+}
+
+.grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project {
+  flex: 1 1 280px;
+}
