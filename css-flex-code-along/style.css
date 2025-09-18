@@ -1,0 +1,8 @@
+:root {
+  --border: #e0e0e0;
+  --bg: #f9fafb;
+}
+/* TODO: Add global resets and base styles */
+/* TODO: Style .card with padding/margin/border */
+/* TODO: Make .nav horizontal (display:flex) */
+/* TODO: Make .grid a flex container with gaps */
