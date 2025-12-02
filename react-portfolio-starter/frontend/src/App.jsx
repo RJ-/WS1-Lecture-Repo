@@ -1,4 +1,5 @@
-import ProjectsSection from './ProjectsSection';
+import { Certifications } from "./Certifications";
+import ProjectsSection from "./ProjectsSection";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       </header>
       <main>
         <ProjectsSection />
+        <hr />
+        <Certifications />
       </main>
     </div>
   );

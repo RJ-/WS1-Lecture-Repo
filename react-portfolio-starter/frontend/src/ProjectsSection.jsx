@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { fetchProjects } from './api';
+import { useEffect, useState } from "react";
+import { fetchProjects } from "./api";
 
 function ProjectsSection() {
   const [projects, setProjects] = useState([]);
@@ -13,7 +13,7 @@ function ProjectsSection() {
         setProjects(data);
       } catch (err) {
         console.error(err);
-        setError('Could not load projects from the server.');
+        setError("Could not load projects from the server.");
       } finally {
         setLoading(false);
       }
@@ -22,8 +22,10 @@ function ProjectsSection() {
     load();
   }, []);
 
+  console.log(projects);
+
   if (loading) return <p>Loading projects...</p>;
-  if (error) return <p style={{ color: 'red' }}>{error}</p>;
+  if (error) return <p style={{ color: "red" }}>{error}</p>;
   if (projects.length === 0) return <p>No projects found.</p>;
 
   return (
